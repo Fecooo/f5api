@@ -15,6 +15,4 @@ async def primegaming():
         'X-Master-Key': '$2b$10$gYROSzNjPIm2xEGH57nDVeNvuWgUgShTqeAFrtrotuy8LoGyyGeBK'
     }
     data = requests.get(url=url, headers=headers).json()
-    print(data)
-
     return data
